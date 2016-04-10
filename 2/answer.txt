@@ -1,0 +1,2 @@
+We wrote a script for decrpyting the AES with a known key. Then we saw the last modified time of the encrypted file and brute forced a search 
+around around this time as key. We used python_docx to check whether the file was being decrpted correctly and tqdm because it looks cool. 

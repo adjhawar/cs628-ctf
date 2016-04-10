@@ -18,7 +18,7 @@ from tqdm import tqdm
 from docx import Document
 import StringIO
 
-plaintext_file = "answer.docx"
+plaintext_file = "secret.docx"
 encrypted_file = "secret.docx.enc"
 IV = "\x42" * AES.block_size
 
