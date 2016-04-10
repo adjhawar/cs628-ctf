@@ -1,0 +1,4 @@
+Exploited integer overflow in num_points = (int)strtoul(argv[1], &in, 10); by giving a large integer in argv[1]
+Inejcted code to spawn shell (AlephOne's code) redirected return address to this code and set count to -ve to ensure no seg fault. In the shell ran `cat flag.txt`
+Again ran with fixenv.sh
+The injected code is in shellcode, and the command ran is in command
