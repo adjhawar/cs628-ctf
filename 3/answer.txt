@@ -1,0 +1,5 @@
+Exploited format string vulnerability in auth.
+gave key as %x%x.... to get stack content (hence the key in hex)
+also had to use %lf etc to go beyond limit of 39 chars
+Searched for "flag" in hex in the stack content and copied the key in front of it (keepinf little endian in mind)
+Converted hex to characters
