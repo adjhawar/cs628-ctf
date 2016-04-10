@@ -1,0 +1,4 @@
+First we got the repo which was referred to in the source of the page. We saw that we had access to some commands.
+We constructed an attack to send packets of a file using ping. We had a server listen to requests and decoded the captured packets 
+to get the key. The code for this attack is given in cmd.sh. We sent 16 bytes at a time and changed the value of i to send different parts
+of the flag

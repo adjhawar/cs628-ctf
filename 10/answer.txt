@@ -1,0 +1,2 @@
+The attack was very similar to the 9th level, only that we had to use short circuiting with changing the query response time (with sleep)
+so that we can get the password. The code again is in try.py

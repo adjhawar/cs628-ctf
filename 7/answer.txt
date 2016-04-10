@@ -1,0 +1,3 @@
+We searched for flag in the pcap file, extracted the flag.zip bytes and saved it to a local zip file.
+Then we downloaded a list of common passwords and used fcrackzip to get the password
+Command: fcrackzip flag.zip -D -p pass.txt -u

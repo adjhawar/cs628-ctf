@@ -1,0 +1,3 @@
+We saw that the source code allowed an SQL injection. We used SQL queries with LIKE to get one character at a time
+until we got the full password. We wasted some time in realizing that we had to do
+case sensitive checks, so we used LIKE BINARY once we realized this. The code for the attack is in try.py
