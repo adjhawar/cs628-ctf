@@ -1,0 +1,2 @@
+Used gdb to understand what was going on. made a file "du" in directory
+which contained "cat flag.txt". added '.' to path and ran the binary
