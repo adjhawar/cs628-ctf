@@ -1,5 +1,4 @@
 import requests
-from tqdm import tqdm
 import time
 
 s = requests.Session()

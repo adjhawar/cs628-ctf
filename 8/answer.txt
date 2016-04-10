@@ -1,0 +1,2 @@
+We saw that some cookies were being used for checking logged_in, we set the cookies to the required values until we were 
+successful in receiving the flag in one of the response headers. The code is in try.py
